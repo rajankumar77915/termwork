@@ -1,0 +1,170 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+.footer{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background:#272727;
+	padding: 20px 0px;
+	
+}
+.icon{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.icon ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+
+.icon ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background:#7DCEA0; 
+}
+.icon ul li a{
+	text-decoration: none;
+	color: #272727;
+	font-size: 25px;
+	display: block;
+}
+.icon ul li a i{
+	line-height: 50px;
+}
+.icon ul li:hover{
+	background: #e67e22;
+}
+.icon ul li a:hover >i{
+	transform: scale(1.6) rotate(25deg);
+}
+.navigation{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 25px;
+}
+.navigation ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+.navigation ul li{
+	display: inline-block;
+	margin: 10px 20px;	 
+}
+.navigation ul li a{
+	text-decoration: none;
+	outline: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.navigation ul li a:hover{
+	color:  #e67e22;
+}
+
+.final{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 15px;
+}
+.final ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+.final ul li{
+	display: inline-block;
+	margin: 0px 20px;	 
+}
+.final ul li a{
+	text-decoration: none;
+	outline: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.final ul li a:hover{
+	color:  #e67e22;
+}
+
+
+@media(max-width:691px ){
+.final ul li a,.navigation ul li a{
+	font-size: 16px;
+}
+}
+@media(max-width:604px ){
+.final ul li a,.navigation ul li a{
+	font-size: 14px;
+}
+.navigation ul li{
+	padding: 0px ;
+}
+}
+@media(max-width:559px ){
+
+.final ul li a,.navigation ul li a{
+	font-size: 13px;
+}
+
+}
+@media(max-width:539px ){
+.final ul li a,.navigation ul li a{
+	font-size: 11px;
+}
+.navigation ul li{
+	margin: 5px 20px;
+}
+.navigation ul li.p1 {
+    padding-top: 10px;
+}
+}
+@media(max-width:380px ){
+	.navigation ul li,.final ul li{
+		display: block;
+		padding: 5px;
+	}
+.navigation2 ul li{
+	display: none;
+}
+.icon ul li a i {
+    line-height: 38px;
+}
+.icon ul li a{
+	font-size: 20px;
+}
+.icon ul li{
+width: 40px;
+    height: 40px;
+}
+}
+@media(max-width: 375px){
+	.navigation ul li.p1 {
+    padding-top: 0px;
+}
+}
