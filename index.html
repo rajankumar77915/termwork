@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>introduce</title>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="coloum.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora"> -->
     <style>
+      html {
+        font-size: 62.5%;
+      }
       body{
 
         background: rgba(6, 1, 1, 0.668)url(pexels-maxime-francis-2246476.jpg);
@@ -19,16 +25,16 @@
       }
       .divoutdiv {
         /* background-image: url(Backgrounds_in_CSS.jpg); */
-        padding: 10px;
+        padding: 1.0rem;
         /* opacity: 0.9; */
-        margin-top: 1px;
-        margin-left: 20px;
-        margin-right: 24px;
+        margin-top: .1rem;
+        margin-left: 2.0rem;
+        margin-right: 2.4rem;
       }
       .header {
     
             text-align: center;
-            font-size: 50px;
+            font-size: 5.0rem;
             background: linear-gradient(to left,
                     violet,
                     indigo,
@@ -48,18 +54,18 @@
           #ea7ea2 100%
         ); */
         text-align: center;
-        padding: 50px;
+        padding: 5.0rem;
         /* margin: ; */
         font-family: 'Dancing Script', cursive;
-       margin-top: -10px;
-        margin-left: -10px;
+       margin-top: -1.0rem;
+        margin-left: -1.0rem;
 
-        margin-right: -10px;
+        margin-right: -1.0rem;
       }
 
       .nav {
         font-size: large;
-        padding: 10px;
+        padding: 1.0rem;
         /* background-color: rgb(8, 94, 102); */
           /* background: linear-gradient(
             to right,
@@ -67,44 +73,46 @@
             #b0c815 40%,
             #e74c4c 100%
           ); */
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -1.0rem;
+        margin-right: -1.0rem;
       }
       .myphoto {
 
         /*  */
         /* background:url(o.jpg); */
-        /* vertical-align: 200px; */
+        /* vertical-align: 20.0rem; */
         /* background-position:  center; */
-        /* background-position: 0px 270px; */
+        /* background-position: .0rem 27.0rem; */
       
         
         /* opacity: 2; */
-        margin-top: 3px;
-        margin-left: 20px;
-        margin-right: 24px;
+        margin-top: .3rem;
+        margin-left: 2.0rem;
+        margin-right: 2.4rem;
         text-align: center;
       }
       
-      img {
-        border-radius: 50%;
-        height: 225px;
+      .image img {
+        border-radius: 10%;
+        /* width: 20.2rem; */
+        height: 22.5rem;
       }
       
 
       .text {
-        font-size: 30px;
-        color: #9b113f;
-        padding: 30px;
+        font-size: 3.0rem;
+        color: #cc094a;
+        padding: 3.0rem;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
       }
 
       .hedding {
-        font-size: 44px;
-        margin: 20px;
-        text-decoration: underline;
-        text-decoration-style: wavy;
+        font-size: 4.4rem;
+        margin: 2.0rem;
+        font-family: Lora, serif;
+         font-size: 60px;
+        color: white;
       }
 
       h2 {
@@ -117,46 +125,112 @@
         background-clip: text;
         -webkit-background-clip: text;
       }
+      @media(max-width:998px){
+        html{
+          font-size:55%;
+        }
+      }
+      @media(max-width:768px){
+        html{
+          font-size:45%;
+        }
+
+         
+      }
+
+      .text p a{
+        color: rgb(242, 17, 17);
+      }
+
+      .end {
+        font-size: 3.0rem;
+        color: #cc4d09;
+        padding: 3.0rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
     </style>
   </head>
   <body>
+    <nav>
+      <div class="logo">Patel Rajan</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="cetificates">certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    
     <div class="header">
       <header>
-        <h1 style="font-size: 35px;">&#x1F64F;Welcome To The Worshop Of HW-A&#x1F64F;</h1>
+        <h1 style="font-size: 3.5rem;">&#x1F64F;Welcome To The Worshop Of HW-A&#x1F64F;</h1>
       </header>
     </div>
-    <div class="nav">
-      <nav><link rel="stylesheet" href="#" />lin</nav>
-    </div>
-
     <div class="myphoto">
       <div class="cx">
-      <a class="img"><img src="ddu img.jpg" alt="img" /></a>
+      <a class="image"><img src="myphoto5.jpg" alt="img" /></a>
     </div>
     </div>
 
-    <div class="divoutdiv">
-      <div class="text">
-        <article>
-          hello sir and my dear friends my name is rajan.i am from navsari.i
-          completed my school THE D.E. ITALIA SARVAJANIK HIGH SCHOOL at
-          navsari.after 12th i got Addmission my dream and my parent's dream
-          college which is dharamsing desai univarsity,nadiad,gujarat.basically
-          i am computer engineer student at ddu.
-        </article>
+    <div class="grand">
+      <div class="parent">
+          <div class="child"><p> hello sir and my dear friends my name is rajan.i am from navsari.i
+              completed my school THE D.E. ITALIA SARVAJANIK HIGH SCHOOL at
+              navsari. What Were those days which is unforgettable</p></div>
+          <div class="child"><p>after 12th i got Addmission my dream and my parent's dream
+              college which is dharamsing desai univarsity , nadiad , gujarat . basically
+              i am computer engineer student at ddu.</p></div>
+          <!-- <div class="child"><img src="school.jpg" alt=""></div> -->
       </div>
-
+  </div>
+    
+   
       <div class="text">
         <h2 class="hedding">Hobby</h2>
         <p>
           I Like To Drawing,Coding,Travelling,Watching Hollywood sci-fi Movies
           and I am open mindness person.
         </p>
+      <!-- </div> -->
+
+     
+        <h2 class="hedding">My Achievements </h2>
+        <p>when i am second standard i got 3 number in class so that i got certificate that's why i like Drawing . <a href="drawing.html">click</a> here you can see my drawings and certificate</p>
       </div>
 
-      <div>
-        <h2 class="hedding">My Achievements in Relevant Field</h2>
-      </div>
+
+      <div class="grand">
+        <div class="parent">
+            <div class="child"><p> 9th standard i got a trophy as well as certificate in ramanujan quize
+              competition as second class when i am standard 10th.</p></div>
+            <div class="child"><p><img src="quiz.jpg" alt="" width="100%" height="100%"></p></div>
+            <!-- <div class="child"><img src="school.jpg" alt=""></div> -->
+        </div>
     </div>
+
+    <div class="grand">
+      <div class="parent">
+        <div class="child"><p><img src="scifair.jpg" alt="" width="100%" height="100%"></p></div>
+          <div class="child"><p> Also i took part in school level science fair in 9th standard in this science fair i get a certificate from my high school</p></div>
+          <!-- <div class="child"><img src="school.jpg" alt=""></div> -->
+      </div>
+  </div>
+
+  <div class="text">
+    <p>And i have a lots of maths and science exam certificate by navsari dustrict science board . <a href="drawing.html">click</a> here you can see my drawings and certificate</p>
+  </div>
+
+  <div class="text">
+    <p>i belive 'Hard Work With Smartly , Honestly , Learning New Skills and sincerity' </p>
+  </div>
+
+  <div class="end">
+    <p>so , that's all about me.</p>
+  </div>
   </body>
 </html>

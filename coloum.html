@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grand{
+            width:100vw;
+            height: 100vh;
+            /* background: blue;
+            color: black; */
+        }
+        p{
+            text-indent: 1em;
+        }
+        .parent1{
+            width:100vw;
+            height: auto;
+            margin: auto;
+            /* background: pink; */
+            display: flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+            font-weight:900;
+            text-transform: capitalize;
+            line-height: 30px;
+        }
+
+        .parent{
+            width:90vw;
+            height: auto;
+            margin: auto;
+            /* background: pink; */
+            display: flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+            font-weight:900;
+            text-transform: capitalize;
+            line-height: 30px;
+        }
+        .child{
+            width: 200px;
+            height: 180px;
+            /* box-shadow: 0 0 15px; */
+            /* background-color: blanchedalmond; */
+            flex:1 1 200px;
+            margin:20px;
+            word-spacing: 2px;
+            color: rgb(255, 213, 0);
+        }
+        .child:first-child{
+            /* background-color: orange; */
+        }   
+        .child:last-child{
+            /* background-color: blueviolet; */
+        }
+
+        @media(max-width:768px){
+            .grand{
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grand">
+        <div class="parent">
+            <div class="child"><p> hello sir and my dear friends my name is rajan.i am from navsari.i
+                completed my school THE D.E. ITALIA SARVAJANIK HIGH SCHOOL at
+                navsari. What Were those days which is unforgettable</p></div>
+            <div class="child"><p>after 12th i got Addmission my dream and my parent's dream
+                college which is dharamsing desai univarsity , nadiad , gujarat . basically
+                i am computer engineer student at ddu.</p></div>
+            <!-- <div class="child"><img src="school.jpg" alt=""></div> -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="coloum.css" /> -->
+    <link rel="stylesheet" href="delet.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora"> -->
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        background: rgba(6, 1, 1, 0.668) url(j.jpg);
+        background-position-x: center;
+        background-position-y: 10%;
+        background-blend-mode: darken;
+      }
+      .nav {
+        font-size: large;
+        padding: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+      }
+
+      .term{
+          /* margin-top: 7.5rem; */
+          margin:  7.5rem 4.0rem;
+          color: aliceblue;
+          font-size: large  ;
+          font-weight: 500;
+          word-spacing: .2rem;
+          line-height: 3.5rem;
+      }
+      @media (max-width: 99.8rem) {
+        html {
+          font-size: 55%;
+        }
+      }
+      @media (max-width: 76.8rem) {
+        html {
+          font-size: 45%;
+        }
+      }
+     form button{
+       background-color: rgb(0, 255, 128);
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+       padding-right: 20px;
+       padding-bottom: 20px;
+       font-size: 15px;
+       border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Patel Rajan</div>
+      <input type="checkbox" id="click" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cetificates">certificates</a></li>
+        <li><a  class="active" href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <form>      
+        <input name="name" type="text" class="contact" placeholder="Name" />   
+        <input name="email" type="text" class="contact" placeholder="Email" />
+        <textarea name="text" class="contact" placeholder="Comment"></textarea>
+        <button>&nbsp;&nbsp;&nbsp;&nbsp;Submit</button>
+       
+      </form>
+      
+  </body>
+</html>
